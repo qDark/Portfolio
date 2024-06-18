@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">  <!-- Codificación -->
+  <meta name="viewport" content="width=device-width">
+  <title>Portafolio Daniel Medina - Ingeniero de Sistemas </title>
+
+  <meta name="description" content="Portafolio de Daniel Medina, 1 año de experiencia como Ingeniero de Sistemas">
+
+  <!--OPEN GRAPH-->
+
+  <meta property="op:title" content="Portafolio de un Ingeniero de Sistemas">
+  <meta property="op:description" content="Portafolio de Daniel Medina, 1 año de experiencia como Ingeniero de Sistemas">
+  <meta property="op:image" content="/images/yo.jpg">
+  <meta property="op:image:alt" content="una foto de una gato facherito">
+
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#09f">
+
+  <link rel="icon" type="image/photo" href="/images/port.jpg">
+
+  <style>
+
+    h1{
+         color: #000000; 
+         font-family: monospace; 
+    }
+    body{
+        background: #c3e0e6;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .link{   /*class*/
+        color: red;
+    }
+
+    .link:hover{         /*Esto sirve cuanando el puntero esta encima de esto haga una accion*/
+        outline: 3px solid red;
+    }
+
+    .link:active{        /*Se activa cuando se presiona*/
+        outline: 3px solid blue;
+    }
+
+    #proyectos{    /*ID*/
+        color: #228b22;
+    }
+
+    li:first-child{
+        color: pink;
+    }
+
+    li:last-child{
+        color: purple;
+    }
+
+  </style>
+
+  </head>
+
+  <body>
+
+    <header>
+        <h1>Portafolio de Daniel Medina :) </h1>
+
+        <!--<iframe 
+        style="width: 100%; aspect-ratio: 16/9;" 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/kD8NpaCBaf8?si=vJSmRq0EUln5Xvfb" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+        </iframe> INCRUSTRAR OTRA PAGINA WEB-->
+
+        <nav>
+          <a class="link" href="#experiencia">Experiencia</a>
+          <a class="link" href="#proyectos">Proyectos</a>  <!-- ENLACES INTERNOS -->   
+          <a 
+            class="link"
+            href="https://github.com/qDark"
+            target="_blank"
+            rel="noreferrer"
+            >Github</a>
+        </nav>
+            
+    </header>
+    
+    <!--<video controls src="/PP1/video/video random.mp4"></video>-->
+
+    <main>
+        <p class="description">+1 año de experiencia como <strong>Ingeniero de Sistemas</strong>.</p>
+    
+        <h2 id="experiencia">Experiencia</h2>
+        
+        <ul>
+            <li class="list-item">C# - 2021</li>
+            <li class="list-item">Java - 2023</li>
+            <li class="list-item">SQL - 2023</li>
+            <li class="list-item">PHYTOM - 2023</li>
+            <li class="list-item">HTML - 2024</li>
+        </ul>
+
+        <a download href="/images/yo.jpg">
+           <img
+            id="photo-image"
+            width=250 
+            height=250
+            title="Foto mia :)" 
+            alt="Una foto de un gato con gafas bien facherito" 
+            src="/images/yo.jpg"
+           > 
+        </a>
+
+        <h2 id="proyectos">Proyectos Realizados</h2>
+
+        <aside>
+            <header>
+                <h3>Mis tecnologias <span>favorita</span></h3>
+            </header>
+            <ol type="1">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+            </ol>
+        </aside>
+
+        <button>   
+            Haz click aqui porfavor
+        </button>
+
+        <section>
+            <article>
+                <header>
+                    <h4>Sitio web comparativo</h4>
+                    <p>
+                        Desarrollo de un sitio web corpotativo con una interfaz amigable y moderna.
+                    </p>
+                    <footer>
+                        <small>tecnologias utilizadas: HTML, CSS, JavaScript</small>
+                    </footer>
+                </header>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <header>
+                    <h4>La pagina de tesla</h4>
+
+                    <img                   
+                    style="width: 100%; aspect-ratio: 1920/919;"     
+                    loading="lazy"
+                    src="/images/tesla.jpg" 
+                    alt="Captura de pantalla de la pagina web de Tesla"
+                    > <!-- Para poner con su mismo tamaño -->
+                </header>    
+                    <p>
+                        Elon Musk me llamó e hice esta pagina desde cero
+                    </p>
+                    <footer>
+                        <small>tecnologias utilizadas: HTML, CSS, JavaScript</small>
+                    </footer>
+            </article>
+        </section>
+    </main>
+
+    <section>
+        <h2>Preguntas frecuentes</h2>
+
+        <details open>
+            <summary>¿Que estudios tienes?</summary>
+            <p>Estudio en la universidad Privada del Norte la carrera de Ingeniera de Sistemas</p>
+        </details>
+
+        <details open>
+            <summary>¿Cuales son tus hobbies?</summary>
+            <p>Me gusta mucho entrenar hacer ejercicio, me gusta juga futbol y basquetball, tambien me gusta montar en skate y por ultimo me gusta dibujar infraestructuras</p>
+        </details>
+
+        <details open>
+            <summary>¿Cuales es tu idioma favorito?</summary>
+            <p>Me encanta CSS, HTMl, JavaScript y Pythom, son lenjuages muy versatiles y con el que se puede hacer muchas cosas interesantes</p>
+        </details>
+    </section>
+
+    <section>
+        <h2>Formulario de contacto</h2>
+
+        <form method="post" action="/">
+            <fieldset>
+               <legend>informacion personal</legend>
+
+               <label style="display: block;">Nombre:
+                  <input 
+                    type="text" 
+                    name="name" 
+                    placeholder="San Juan Cabeza de Pou"
+                    required
+                  >
+               </label>
+
+               <label>Email:
+                <input 
+                  type="email"  
+                  name="email" 
+                  placeholder="donpou69@gmail.com"
+                  required
+                >
+             </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Informacion adicional</legend>
+
+              <div>
+                <label>telefono:
+                    <input 
+                     type="tel" 
+                     name="phone" 
+                     placeholder="San Juan Cabeza de Pou"
+                     required pattern="[0-9]{9}"
+                    >
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Otros</legend>
+
+                <div>
+                    <label for="why">¿Por que quieres contactar?
+                        <select name="why" id="why">
+                            <option value="1">Trabajo</option>
+                            <option value="2">Duda</option>
+                            <option value="3">Mas informacion</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    <label for="terms">¿Aceptas los terminos?</label>
+                    <input type="checkbox" name="terms" id="terms" required>
+                </div>
+
+                <div>
+                    <datalist id="lenguages">
+                        <option value="JavaScript"></option>
+                        <option value="HTML"></option>
+                        <option value="CSS"></option>
+                        <option value="C++"></option>
+                    </datalist>
+                    <label>
+                        ¿Con que lenguaje quieres que te ayude?
+                    </label>
+                    <input list="lenguages" name="lenguages">
+                </div>
+            </fieldset>
+
+            <button>Enviar contacto</button>
+
+        </form>
+    </section>
+
+    <footer>
+        Copyright &copy; 2024 El Portafolio mas fachero del mundo 
+      
+        <a href="mailto:senrexx162@outlook.com">Enviame un correo</a>
+        <a href="telto: +51986478236">Llamar por telefono</a>
+      </footer>
+
+  </body>
+  
+
+</html>
